@@ -7,19 +7,7 @@ This repository is a structured, hands-on log of my experiments, mini-projects, 
 
 ---
 
-## 🗂️ Repository Structure
-
 ```bash
-CodeYatra/
-├── FrontEnd/         # HTML, CSS, JavaScript, React, UI libraries, etc.
-├── Backend/          # Core Java, Spring Boot, APIs, Kafka, etc.
-├── Database/         # MySQL, PostgreSQL, MongoDB, Redis, Oracle
-├── DevOps/           # Docker, Kubernetes, CI/CD, GitHub Actions, etc.
-├── Projects/         # Full-stack and mini projects
-├── SystemDesign/     # Low-level and high-level design notes/projects
-├── Docs/             # Notes, learning plans, resources
-├── .gitignore
-└── README.md
 📌 Learning Goals
 ✅ Build strong fundamentals in HTML, CSS, JavaScript
 
@@ -57,13 +45,92 @@ This repo is open for learning inspiration.
 Feel free to explore, fork, or reference with proper attribution.
 
 🙏 Thanks for stopping by!
-yaml
-Copy
-Edit
+```
 
 ---
-
-Let me know if you'd like:
-- A Markdown version with emojis and collapsible sections
-- GitHub Actions badges
-- A personalized logo/banner for the top of your `README`
+## CodeYatra Directory Structure
+````
+CodeYatra/
+├── FrontEnd/
+│   ├── HTML-CSS/
+│   ├── JavaScript/
+│   ├── TypeScript/
+│   ├── React/
+│   ├── ReactNative/         # if you want to explore mobile
+│   ├── NextJS/              # optional advanced React framework
+│   ├── Redux-Zustand/       # state management libraries
+│   ├── UI-Libraries/
+│   │   ├── TailwindCSS/
+│   │   └── MaterialUI/
+│   ├── Testing/
+│   │   ├── Jest/
+│   │   └── ReactTestingLibrary/
+│   └── Tools/
+│       ├── Vite/
+│       └── Webpack/
+│
+├── Backend/
+│   ├── CoreJava/
+│   ├── SpringBoot/
+│   │   ├── REST-API/
+│   │   ├── Kafka/
+│   │   ├── Security/
+│   │   ├── Scheduling/
+│   │   └── Testing/
+│   ├── JPA-Hibernate/
+│   ├── SpringCloud/          # for microservices patterns
+│   ├── NodeJS/               # learn if you want to explore JS-based backend
+│   ├── ExpressJS/
+│   ├── GraphQL/
+│   ├── Security/
+│   │   ├── JWT/
+│   │   └── OAuth2/
+│   └── Tools/
+│       ├── Maven/
+│       └── Gradle/
+│
+├── Database/
+│   ├── MySQL/
+│   ├── PostgreSQL/
+│   ├── MongoDB/
+│   ├── Redis/
+│   └── Oracle/
+│
+├── DevOps/
+│   ├── Docker/
+│   ├── Kubernetes/
+│   ├── Jenkins/
+│   ├── Git-GitHub/
+│   ├── CI-CD/
+│   └── Monitoring-Logging/
+│       ├── Prometheus/
+│       └── Grafana/
+│
+├── SystemDesign/
+│   ├── LowLevelDesign/
+│   └── HighLevelDesign/
+│
+├── Testing/
+│   ├── UnitTesting/
+│   ├── IntegrationTesting/
+│   └── Postman-API/
+│
+├── Projects/
+│   ├── FullStack/
+│   │   ├── ECommerceApp/
+│   │   ├── BlogApp/
+│   │   └── ChatApp/
+│   └── MiniProjects/
+│       ├── ToDoApp/
+│       ├── WeatherApp/
+│       └── FileUploadApp/
+│
+└── Docs/
+    ├── README.md
+    ├── LearningPlan.md
+    └── Notes/
+        ├── Java.md
+        ├── React.md
+        ├── Docker.md
+        └── ...
+`````
