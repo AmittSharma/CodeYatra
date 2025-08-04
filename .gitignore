@@ -1,24 +1,49 @@
-# Compiled class file
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Node (React, Next.js, etc.)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Java
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+target/
+*.iml
+.idea/
+.gradle/
+out/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# IntelliJ / Eclipse / VSCode
+*.ipr
+*.iws
+*.bak
+*.swp
+*.swo
+*.log
+*.tmp
+.vscode/
+*.project
+*.classpath
+*.settings/
+
+# Environment files (keep secrets safe!)
+.env
+.env.*
+*.key
+*.pem
+*.crt
+
+# Logs
+logs/
+
+# OS generated files
+ehthumbs.db
+Icon?
