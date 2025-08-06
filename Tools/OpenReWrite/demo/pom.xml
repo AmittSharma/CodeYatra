@@ -65,6 +65,31 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <!--Open ReWrite Plugin-->
+            <plugin>
+                <groupId>org.openrewrite.maven</groupId>
+                <artifactId>rewrite-maven-plugin</artifactId>
+                <version>6.15.0</version>
+                <configuration>
+                    <exportDatatables>true</exportDatatables>
+                    <activeRecipes>
+                        <recipe>org.openrewrite.java.migrate.UpgradeToJava21</recipe> <!--upgrading java to java 21-->
+                        <recipe>org.openrewrite.java.spring.boot3.UpgradeSpringBoot_3_1</recipe> <!--upgrading to spring-boot 3.1.x-->
+                    </activeRecipes>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.openrewrite.recipe</groupId>
+                        <artifactId>rewrite-migrate-java</artifactId>
+                        <version>3.14.1</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.openrewrite.recipe</groupId>
+                        <artifactId>rewrite-spring</artifactId>
+                        <version>6.11.1</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
         </plugins>
     </build>
 
